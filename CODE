@@ -1,0 +1,19 @@
+CREATE DATABASE practice
+
+CREATE TABLE customers (
+customer_id INT,
+last_name VARCHAR,
+first_name VARCHAR,
+address VARCHAR,
+email VARCHAR,
+contact_no INT);
+
+INSERT INTO customers (customer_id, last_name, first_name, address, email, contact_no)
+VALUES (01, 'Robles', 'Jhoanna Christine', 'Calamba, Laguna', 'jcrobles@gmail.com', 09568880126),
+(02, 'Arceta', 'Maraiah Queen', 'Lapu-lapu City, Cebu', 'mqarceta@gmail.com', 09568880127),
+(03, 'Vergara', 'Ma. Nicolette','Tagbilaran, Bohol', 'mnvergara@gmail.com', 09568880914),
+(04, 'Ricalde', 'Mary Loi Yves', 'General Trias City, Cavite', 'mlyricalde@gmail.com', 09568880527),
+(05, 'Apuli', 'Gweneth', 'Daraga, Albay', 'gapuli@gmail.com', 09568880619),
+(06, 'Sevilleja', 'Lindstey Stacey Aubrey', 'Bagbag, Nueva Vizcaya', 'lsasevilleja@gmail.com', 09568880713),
+ (07, 'Lim', 'Mikhaela Janna', 'San Juan City', 'mjlim@gmail.com', 09568880808),
+ (08, 'Catacutan', 'Sheena Mae', 'Santiago City, Isabela', 'smcatacutan@gmail.com', 09568880509);
